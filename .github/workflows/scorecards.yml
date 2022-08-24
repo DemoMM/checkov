@@ -1,11 +1,11 @@
 name: Scorecards supply-chain security
-on:
+#on:
   # Only the default branch is supported.
-  branch_protection_rule:
-  schedule:
-    - cron: '19 16 * * 3'
-  push:
-    branches: [ "master" ]
+#  branch_protection_rule:
+#  schedule:
+#    - cron: '19 16 * * 3'
+#  push:
+#    branches: [ "master" ]
 
 # Declare default permissions as read only.
 permissions: read-all
